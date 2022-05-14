@@ -1,0 +1,79 @@
+body
+{
+    background-color: yellow;
+}
+
+#logo
+{
+    float: left;
+    width: fit-content;
+    width: 200px;
+    border: 5px solid black;
+}
+
+#show_sketch
+{
+float: right;
+border: 4.5px solid black;
+border-radius: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Header
+{
+    font-weight: 600;
+    color:tomato;
+    font-stretch: expanded;
+    font-family:monospace , Tahoma, sans-serif;
+    font-size: 60px;
+    border-bottom: 5px solid black;
+}
+
+#draw_object
+{
+    font-size: 30px;
+    padding-top: 120px;
+    padding-right: 150px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#confidence
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#score
+{
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#your_sketch
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Timer
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 1000px;
+}
+
+.Clear
+{
+    font-size: 15px;
+    float: right;
+    font-stretch: narrower;
+    color: black;
+    border: 4.5px solid grey;
+    border-radius: 20px;
+}
