@@ -33,7 +33,7 @@ function draw(){
 function check_sketch(){
     timer_counter++;
     document.getElementById("timer").innerHTML = "Timer: "+timer_counter;
-    if(timer_counter>500){
+    if(timer_counter>1000){
         document.getElementById("your_sketch").innerHTML = "Your Sketch: ";
         document.getElementById("confidence").innerHTML = "Confidence: ";
         timer_counter = 0;
@@ -72,4 +72,9 @@ function gotResults(error,results){
     drawn_sketch = results[0].label;
     document.getElementById("your_sketch").innerHTML = "Your Sketch: "+results[0].label;
     document.getElementById("confidence").innerHTML = "Confidence: "+Math.round(results[0].confidence * 100)+"%";
+}
+
+function clearCanvas()
+{
+ background("white");
 }
